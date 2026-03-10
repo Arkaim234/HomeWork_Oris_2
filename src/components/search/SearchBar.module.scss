@@ -1,0 +1,641 @@
+// SearchBar.module.scss
+
+/* Переменные */
+$primary-color: #429410;
+$hover-color: #2e7d32;
+$border-color: #ebdbdb;
+$text-secondary: #888;
+
+/* Стиль для всего блока поиска */
+.wrap {
+  margin: 30px 0;
+}
+
+/* Вкладки (TABs) */
+.tabsNav {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: $border-color;
+    z-index: 0;
+  }
+}
+
+.tabItem {
+  padding: 8px 16px !important; /* !important: переопределяем глобальный button { padding: 0 } */
+  font-size: 14px;
+  color: $primary-color;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  text-align: center;
+  position: relative;
+  white-space: nowrap;
+  background: transparent !important; /* нейтрализуем глобальный button:hover */
+
+  &:hover,
+  &:focus {
+    color: $hover-color;
+    background: transparent !important; /* глобальный button:hover даёт rgba(0,0,0,0.05) — не нужно */
+  }
+
+  &_active {
+    border: 1px solid $primary-color;
+    background-color: #fff !important;
+    color: $primary-color;
+    z-index: 1;
+  }
+
+  &_text {
+    display: block;
+    padding: 4px 0;
+    border-bottom: 1px dotted $primary-color;
+  }
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 0;
+    border-bottom: 1px solid $primary-color;
+
+    &:hover {
+      color: $hover-color;
+    }
+  }
+}
+
+.tabItem_active .tabItem_text,
+.tabItem_active a {
+  border-bottom: none;
+}
+
+/* Контент вкладок */
+.tabsContent {
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #e9ecef;
+  border-top: none;
+  margin-top: 16px;
+}
+
+/* Форма */
+.form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  box-sizing: border-box;
+  border: 1px solid #e5e5e5;
+  border-top: none;
+  border-radius: 4px;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6px 12px;
+  background: #fff;
+  border-right: 1px solid $border-color;
+  flex: 0 1 auto;
+  width: auto;
+  min-width: 80px;
+  max-width: 360px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  min-height: 56px;
+
+  &:last-child {
+    border-right: 1px solid $border-color;
+  }
+}
+
+.itemLabel {
+  font-size: 12px;
+  color: $text-secondary;
+  margin-bottom: 6px;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.itemValue {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: clip;
+  min-height: 36px;
+  position: relative;
+
+  &::after {
+    content: '▼';
+    font-size: 10px;
+    color: $text-secondary;
+    margin-left: 6px;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+  }
+  &[data-modal-open]::after {
+    transform: rotate(180deg);
+  }
+
+  /* Стили для кнопок-инпутов внутри itemValue (ночи, туристы) */
+  input[type="text"],
+  input[type="button"],
+  button {
+    border: none !important;
+    background: transparent !important;
+    outline: none !important;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    padding: 0 !important;
+    margin: 0;
+    text-align: left;
+    min-width: 0;
+    overflow: visible;
+    white-space: nowrap;
+
+    &:hover,
+    &:focus {
+      background: transparent !important;
+      outline: none !important;
+    }
+  }
+}
+
+/* Поле автодополнения (город вылета и страна) */
+.autocompleteBox {
+  position: relative;
+  padding-right: 14px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  min-height: 36px;
+
+  /* Стрелка ▼ */
+  &::after {
+    content: '▼';
+    font-size: 10px;
+    color: $text-secondary;
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: transform 0.2s ease;
+  }
+  &[data-modal-open]::after {
+    transform: translateY(-50%) rotate(180deg);
+  }
+
+  /* Инпут — полный сброс браузерных стилей */
+  input[type="text"] {
+    border: none !important;
+    background: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+    font: inherit;
+    color: inherit;
+    cursor: text;
+    padding: 0 !important;
+    margin: 0;
+    min-width: 60px;
+    width: auto;
+
+    &:focus,
+    &:active {
+      border: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+      background: transparent !important;
+    }
+  }
+}
+
+/* Кнопка «Найти» */
+.submit {
+  flex: 1;
+}
+
+.submitButton {
+  background-color: $primary-color !important;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 67.79px;
+  width: 100%;
+  padding: 0 16px;
+  appearance: none; /* убираем браузерный стиль input[type=submit] */
+
+  /* Явный hover — глобальный button:hover (0,1,1) имеет бо́льший вес чем .class (0,1,0),
+     поэтому нужен явный .submitButton:hover с (0,2,0) или !important */
+  &:hover,
+  &:focus {
+    background-color: $hover-color !important;
+    outline: none;
+  }
+}
+
+/* Кнопка «Показать дополнительные поля» */
+.additionalFields {
+  display: inline-block;
+  float: right;
+  clear: both;
+  padding: 8px 0;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 12px;
+  color: $primary-color;
+  border-bottom: 1px dotted $primary-color;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+
+  &:hover {
+    color: $hover-color;
+    border-bottom-color: $hover-color;
+  }
+}
+
+/* Модалки */
+.modal {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 260px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 14px rgba(0,0,0,.15);
+  padding: 10px;
+  display: none;
+  z-index: 999;
+
+  &.open {
+    display: block;
+  }
+
+  input {
+    width: 100%;
+    padding: 6px 10px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+}
+
+.modalList {
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.modalItem {
+  padding: 8px 10px;
+  cursor: pointer;
+
+  &:hover,
+  &.active {
+    background: #31b57c;
+    color: #fff;
+  }
+}
+
+.modalEmpty {
+  padding: 8px 10px;
+  color: #666;
+}
+
+/* Специальные модалки для ночей и туристов */
+.nightsModal,
+.touristsModal {
+  width: auto;
+  min-width: 220px;
+  padding: 10px 14px;
+}
+
+.modalRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-size: 14px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.modalLabel {
+  color: #777;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.modalSpinner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modalValue {
+  font-size: 16px;
+  font-weight: 500;
+  min-width: 24px;
+  text-align: center;
+}
+
+.modalArrows {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.arrow {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  line-height: 1;
+  padding: 0 !important;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $primary-color;
+    background: #fff !important;
+  }
+}
+
+/* Туристы */
+.touristsRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.touristsLabel {
+  color: #777;
+}
+
+.touristsControls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.touristsCount {
+  min-width: 22px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.circleBtn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: $primary-color !important;
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 1;
+  padding: 0 !important;
+  cursor: pointer;
+
+  &:hover {
+    background: $hover-color !important;
+  }
+}
+
+/* Результаты поиска */
+.results {
+  max-width: 1200px;
+  margin: 40px auto 60px;
+}
+
+.resultsTitle {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.resultsEmpty {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Карточка тура */
+.tourCard {
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px #e6e6e6;
+}
+
+.tourCardInner {
+  display: flex;
+  align-items: stretch;
+  padding: 20px 25px;
+}
+
+.tourCardLeft {
+  flex: 0 0 260px;
+  margin-right: 25px;
+}
+
+.tourCardImageLink {
+  display: block;
+}
+
+.tourCardImage {
+  display: block;
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.tourCardCenter {
+  flex: 1 1 auto;
+  padding-right: 30px;
+  font-size: 14px;
+}
+
+.tourCardTopRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.tourCardStars {
+  color: #f2a200;
+  font-size: 14px;
+}
+
+.tourCardName {
+  font-size: 18px;
+  font-weight: 600;
+  color: #008000;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.tourCardLocation {
+  margin-bottom: 8px;
+  color: #777;
+}
+
+.tourCardInfoRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 4px;
+}
+
+.tourCardInfoItem span {
+  font-weight: 600;
+}
+
+.tourCardRight {
+  flex: 0 0 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.tourCardPrice {
+  padding: 12px 28px;
+  background: #4ea327;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+.tourCardMore {
+  border: none;
+  background: none;
+  padding: 0;
+  color: #008000;
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Адаптивность */
+@media (max-width: 1024px) {
+  .formItem {
+    min-width: 70px;
+    padding: 6px 10px;
+  }
+  .submit {
+    min-height: 52px;
+  }
+  .submitButton {
+    padding: 0 16px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .form {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .formItem {
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+    flex: 0 0 100%;
+    border-right: none;
+    border-bottom: 1px solid $border-color;
+    padding: 10px 12px;
+  }
+  .submit {
+    width: 100%;
+    min-width: 0;
+  }
+  .submitButton {
+    width: 100%;
+    min-width: 0;
+    padding: 10px 16px;
+    min-height: 56px;
+  }
+  .itemValue::after {
+    font-size: 9px;
+    margin-left: 6px;
+  }
+}
+
+@media (max-width: 900px) {
+  .tourCardInner {
+    flex-direction: column;
+    padding: 15px 18px;
+  }
+  .tourCardLeft {
+    flex: 0 0 auto;
+    margin: 0 0 12px 0;
+  }
+  .tourCardImage {
+    width: 100%;
+    height: auto;
+    max-height: 220px;
+  }
+  .tourCardCenter {
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+  .tourCardRight {
+    align-items: flex-start;
+  }
+}

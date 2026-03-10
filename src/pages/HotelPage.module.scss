@@ -1,0 +1,228 @@
+// HotelPage.module.scss
+
+// Цветовые переменные
+$color-text-dark: #333;
+$color-text-medium: #444;
+$color-text-light: #555;
+$color-link-blue: #0d5cab;
+$color-link-green: #3b8b1e;
+$color-btn-green: #429410;
+$color-btn-green-hover: #71ac2a;
+$color-border: #d3d3d3;
+
+// ----- Бейдж типа отеля (используется через styles.hotelTypeBadge) -----
+.hotelTypeBadge {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 4px 10px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  font-size: 13px;
+  color: $color-text-dark;
+}
+
+// ----- Простой список без маркеров (styles.plainList) -----
+.plainList {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    margin-bottom: 4px;
+    padding-left: 14px;
+    position: relative;
+
+    &::before {
+      content: '·';
+      position: absolute;
+      left: 0;
+      color: #555;
+    }
+  }
+}
+
+// ----- Строка локации (hotel-location-line) -----
+.hotel-location-line {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: $color-text-light;
+  margin-bottom: 15px;
+
+  img {
+    margin-right: 5px;
+  }
+}
+
+.hotel-location-country {
+  color: $color-link-blue;
+  text-decoration: underline;
+  margin-right: 3px;
+}
+
+.hotel-location-city {
+  margin-left: 3px;
+}
+
+// ----- Навигация по вкладкам — точно как в public/main.css -----
+.pages-main-nav {
+  display: flex;
+  gap: 8px;
+  margin: 10px 0 10px;
+}
+
+.pages-main-nav__item {
+  flex: 1;
+  text-align: center;
+  padding: 11px 10px;
+  color: #333;
+  background: #fff;
+  border: 1px solid #c4c4c4;
+  border-bottom: none;
+  border-radius: 16px 16px 0 0;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+
+  &:hover {
+    background: #429410;
+    color: #fff;
+    border-color: #429410;
+  }
+
+  &.pages-main-nav__item_active {
+    background: #429410 !important;
+    border-color: #429410 !important;
+    color: #fff !important;
+  }
+}
+
+.pages-main-nav__item_active {
+  background: #429410 !important;
+  border-color: #429410 !important;
+  color: #fff !important;
+}
+
+// ----- Блок с фотографиями (hotel-top-block) -----
+.hotel-top-block {
+  display: grid;
+  grid-template-columns: 3fr 1.05fr;
+  column-gap: 10px;
+  margin-bottom: 8px;
+
+  &__main-photo {
+    // дополнительные стили при необходимости
+  }
+}
+
+.hotel-main-image {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+}
+
+.hotel-top-block__side-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  img {
+    width: 100%;
+    height: 104px;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+// ----- Строка со ссылкой на карту (hotel-map-link-row) -----
+.hotel-map-link-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.photo-block-map-toggler-img-wrap {
+  margin-right: 4px;
+}
+
+.hotel-map-link {
+  color: $color-link-green;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// ----- Сетка информации об отеле (hotel-info-grid) -----
+.hotel-info-grid {
+  margin-bottom: 20px;
+}
+
+.hotel-info-row {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.hotel-info-label {
+  width: 150px;
+  font-weight: bold;
+  font-size: 13px;
+  color: $color-text-medium;
+}
+
+.hotel-info-value {
+  flex: 1;
+  font-size: 13px;
+  line-height: 1.4;
+  color: $color-text-dark;
+
+  p {
+    margin: 0 0 3px;
+  }
+
+  a {
+    color: $color-link-blue;
+    text-decoration: underline;
+  }
+}
+
+// ----- Контакты (ul.hotel-contacts) -----
+.hotel-contacts {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 13px;
+}
+
+// ----- Блок кнопки бронирования (hotel-booking-row) -----
+.hotel-booking-row {
+  margin-top: 15px;
+}
+
+.hotel-booking-btn {
+  display: inline-block;
+  padding: 12px 35px;
+  background: $color-btn-green;
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+
+  &:hover {
+    background: $color-btn-green-hover;
+  }
+}
+
+// ----- Скрытый/активный контент вкладок (не используется в текущем JSX, но оставлено на будущее) -----
+.hotel-tab-content {
+  display: none;
+
+  &_active {
+    display: block;
+  }
+}
