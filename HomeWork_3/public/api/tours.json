@@ -1,0 +1,353 @@
+[
+  {
+    "id": 2,
+    "name": "Delphin BE Grand Resort",
+    "slug": "delphin-be-grand-resort",
+    "country": "Турция",
+    "city": "Анталья",
+    "category": "Boutique",
+    "mealPlanCode": "AI",
+    "price": 58500,
+    "description": "Большой семейный отель на первой береговой линии с развитой инфраструктурой и анимацией.",
+    "coverPhoto": "/src/assets/images/hotels/delphin-be-grand/1200-0_bgblur_bbb526fba3df45938fa6e54242376088.jpg",
+    "photos": [
+      "/src/assets/images/hotels/delphin-be-grand/1200-0_bgblur_bbb526fba3df45938fa6e54242376088.jpg",
+      "/src/assets/images/hotels/delphin-be-grand/1200-0_bgblur_e378337d083f4fb5a538c735f44014bb.jpg"
+    ],
+    "address": "Kundu Mevkii, Lara",
+    "distanceToAirport": "около 15 км до аэропорта Анталья",
+    "distanceToCenter": "примерно 17 км до центра Антальи",
+    "distanceToBeach": "первая береговая линия, собственный песчано-галечный пляж",
+    "yearOpened": 2002,
+    "yearRenovated": 2016,
+    "totalAreaSquareMeters": 50000,
+    "buildingInfo": "Большой семейный отель на первой береговой линии с развитой инфраструктурой и анимацией.",
+    "roomTypes": [
+      {
+        "id": 16,
+        "name": "Standard Room Land View",
+        "view": "вид на сушу",
+        "bedConfiguration": "1 двуспальная или 2 односпальные кровати",
+        "maxOccupancy": 3,
+        "areaSquareMeters": 30
+      }
+    ],
+    "mealPlans": [
+      {
+        "id": 2,
+        "code": "AI",
+        "description": "All Inclusive — завтрак, обед, ужин, закуски в течение дня, местные алкогольные и безалкогольные напитки по концепции отеля."
+      }
+    ],
+    "services": {
+      "inRoom": [
+        "кондиционер",
+        "телевизор",
+        "мини-бар",
+        "сейф",
+        "чайный набор",
+        "санузел с душем/ванной"
+      ],
+      "forChildren": [
+        "мини-клуб",
+        "детская анимация",
+        "детские горки",
+        "детский буфет"
+      ],
+      "onSite": [
+        "основной ресторан",
+        "рестораны a-la carte",
+        "несколько баров",
+        "конференц-зал",
+        "прачечная (платно)"
+      ],
+      "entertainment": [
+        "аквапарк",
+        "анимация",
+        "теннисные корты",
+        "фитнес-центр",
+        "водные виды спорта (платно)"
+      ],
+      "beach": [
+        "первая береговая линия",
+        "песчано-галечный пляж",
+        "лежаки и зонты бесплатно",
+        "пирс"
+      ],
+      "notes": [
+        "дресс-код в ресторане",
+        "администрация может изменять концепцию без уведомления"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Labranda TMT Bodrum Resort",
+    "slug": "labranda-tmt-bodrum-resort",
+    "country": "Турция",
+    "city": "Бодрум",
+    "category": "HV-2",
+    "mealPlanCode": "AI",
+    "price": 49800,
+    "description": "Популярный клубный отель на берегу Эгейского моря, недалеко от центра Бодрума.",
+    "coverPhoto": "/src/assets/images/hotels/labranda-tmt-bodrum/1200-0_bgblur_490168ca72564e83994bf48882e95b115c3df3.jpg",
+    "photos": [
+      "/src/assets/images/hotels/labranda-tmt-bodrum/1200-0_bgblur_490168ca72564e83994bf48882e95b115c3df3.jpg",
+      "/src/assets/images/hotels/labranda-tmt-bodrum/220-140_490168072ea88f21ea45c6988aedb26f6e553d.jpg",
+      "/src/assets/images/hotels/labranda-tmt-bodrum/220-140_490168920db31c2b71483aa757ff0c617bd786.jpg",
+      "/src/assets/images/hotels/labranda-tmt-bodrum/220-140_49016831234638c51644f596f56451adaf2281.jpg"
+    ],
+    "address": "Kumbahce Mah. Ataturk Cad. No:180",
+    "distanceToAirport": "около 35 км до аэропорта Бодрум",
+    "distanceToCenter": "примерно 1,5 км до центра Бодрума",
+    "distanceToBeach": "собственная пляжная платформа и небольшая песчано-галечная полоса",
+    "yearOpened": 2004,
+    "yearRenovated": 2017,
+    "totalAreaSquareMeters": 30000,
+    "buildingInfo": "Каскадная застройка на склоне, корпуса и бунгало, террасы с видом на Эгейское море.",
+    "roomTypes": [
+      {
+        "id": 10,
+        "name": "Standard Sea View",
+        "view": "море",
+        "bedConfiguration": "1 двуспальная кровать",
+        "maxOccupancy": 3,
+        "areaSquareMeters": 24
+      },
+      {
+        "id": 11,
+        "name": "Family Room",
+        "view": "частичный вид на море",
+        "bedConfiguration": "1 двуспальная + 2 односпальные кровати",
+        "maxOccupancy": 4,
+        "areaSquareMeters": 30
+      },
+      {
+        "id": 23,
+        "name": "Standard Garden View",
+        "view": "сад",
+        "bedConfiguration": "1 двуспальная или 2 односпальные кровати",
+        "maxOccupancy": 3,
+        "areaSquareMeters": 22
+      }
+    ],
+    "mealPlans": [
+      {
+        "id": 2,
+        "code": "AI",
+        "description": "All Inclusive — завтрак, обед, ужин, закуски в течение дня, местные алкогольные и безалкогольные напитки по концепции отеля."
+      }
+    ],
+    "services": {
+      "inRoom": [
+        "телевизор",
+        "чайный набор",
+        "мини-бар"
+      ],
+      "forChildren": [
+        "детский бассейн",
+        "мини-клуб",
+        "анимация для детей"
+      ],
+      "onSite": [
+        "главный ресторан",
+        "бар у бассейна",
+        "собственная пирс-платформа"
+      ],
+      "entertainment": [
+        "дневная и вечерняя анимация",
+        "пляжный волейбол",
+        "фитнес зал",
+        "водные виды спорта (платно)"
+      ],
+      "beach": [
+        "пляжная платформа",
+        "песчано-галечный вход"
+      ],
+      "notes": []
+    }
+  },
+  {
+    "id": 3,
+    "name": "Swandor Topkapi Palace",
+    "slug": "swandor-topkapi-palace",
+    "country": "Турция",
+    "city": "Анталья",
+    "category": "HV-1",
+    "mealPlanCode": "UAI",
+    "price": 61300,
+    "description": "Концептуальный отель в стиле дворца Топкапы, ориентирован на семейный отдых и активную анимацию.",
+    "coverPhoto": "/src/assets/images/hotels/swandor-topkapi/1200-0__use_origin_data_67987c684eec4f928fbdae9008b38801.jpg",
+    "photos": [
+      "/src/assets/images/hotels/swandor-topkapi/1200-0__use_origin_data_67987c684eec4f928fbdae9008b38801.jpg",
+      "/src/assets/images/hotels/swandor-topkapi/1200-0_bgblur_17746b055fe64928b5689b4198ebb8af.jpg",
+      "/src/assets/images/hotels/swandor-topkapi/280-200_bcc71b13670c479fbbd94f7be049f940.jpg"
+    ],
+    "address": "Kundu Mah. Tesisler Cad.",
+    "distanceToAirport": "около 20 км до аэропорта Анталья",
+    "distanceToCenter": "около 20 км до центра",
+    "distanceToBeach": "первая береговая линия, песчано-галечный пляж",
+    "yearOpened": 1999,
+    "yearRenovated": 2018,
+    "totalAreaSquareMeters": 40000,
+    "buildingInfo": "Отель выполнен в стилистике дворца Топкапы, несколько корпусов, большая территория и аквапарк.",
+    "roomTypes": [
+      {
+        "id": 21,
+        "name": "Standard Room",
+        "view": "сад/бассейн",
+        "bedConfiguration": "1 двуспальная или 2 односпальные кровати",
+        "maxOccupancy": 3,
+        "areaSquareMeters": 24
+      },
+      {
+        "id": 22,
+        "name": "Family Duplex",
+        "view": "сад",
+        "bedConfiguration": "1 двуспальная + 2 односпальные кровати (мезонин)",
+        "maxOccupancy": 4,
+        "areaSquareMeters": 35
+      },
+      {
+        "id": 17,
+        "name": "Standard Room",
+        "view": "сад/бассейн",
+        "bedConfiguration": "1 двуспальная или 2 односпальные кровати",
+        "maxOccupancy": 3,
+        "areaSquareMeters": 24
+      }
+    ],
+    "mealPlans": [
+      {
+        "id": 3,
+        "code": "UAI",
+        "description": "Ultra All Inclusive — расширенное питание и напитки: круглосуточные бары по концепции, импортные напитки, поздний ужин."
+      }
+    ],
+    "services": {
+      "inRoom": [
+        "кондиционер",
+        "телевизор",
+        "мини-бар",
+        "чайный набор",
+        "сейф"
+      ],
+      "forChildren": [
+        "мини-клуб",
+        "детский бассейн",
+        "игровая площадка"
+      ],
+      "onSite": [
+        "главный ресторан",
+        "рестораны a-la carte",
+        "несколько баров",
+        "магазины",
+        "собственный амфитеатр"
+      ],
+      "entertainment": [
+        "аквапарк",
+        "вечерние шоу",
+        "фитнес-центр",
+        "пляжный волейбол",
+        "теннисные корты"
+      ],
+      "beach": [
+        "первая береговая линия",
+        "песчано-галечный пляж",
+        "лежаки/зонты бесплатно"
+      ],
+      "notes": []
+    }
+  },
+  {
+    "id": 5,
+    "name": "Otium Family Stone Palace",
+    "slug": "otium-family-stone-palace",
+    "country": "Турция",
+    "city": "Сиде",
+    "category": "Семейный",
+    "mealPlanCode": "AI",
+    "price": 52700,
+    "description": "Семейный отель с большой зелёной территорией, бассейнами и развитой инфраструктурой для детей.",
+    "coverPhoto": "/src/assets/images/hotels/otium-stone-palace/1200-0_bgblur_b5ea43084b7d403ead9af016cb4944e7.jpg",
+    "photos": [
+      "/src/assets/images/hotels/otium-stone-palace/1200-0_bgblur_b5ea43084b7d403ead9af016cb4944e7.jpg",
+      "/src/assets/images/hotels/otium-stone-palace/280-200_4e61ef734e7c4841bb0b0f8827f3f517.jpg",
+      "/src/assets/images/hotels/otium-stone-palace/280-200_a9edc123fe6c46cd86ed96fa1aead348.jpg"
+    ],
+    "address": "Colakli Mevkii",
+    "distanceToAirport": "около 55 км до аэропорта Анталья",
+    "distanceToCenter": "примерно 12 км до центра Сиде",
+    "distanceToBeach": "собственный песчаный пляж, в 450 м от отеля",
+    "yearOpened": 2000,
+    "yearRenovated": 2015,
+    "totalAreaSquareMeters": 35000,
+    "buildingInfo": "Комплекс из нескольких корпусов в окружении зелени, плавные дорожки и множество зон отдыха.",
+    "roomTypes": [
+      {
+        "id": 13,
+        "name": "Family Room",
+        "view": "сад",
+        "bedConfiguration": "1 двуспальная + 2 односпальные кровати",
+        "maxOccupancy": 4,
+        "areaSquareMeters": 32
+      },
+      {
+        "id": 14,
+        "name": "Large Room",
+        "view": "сад",
+        "bedConfiguration": "1 двуспальная + диван-кровать",
+        "maxOccupancy": 4,
+        "areaSquareMeters": 28
+      },
+      {
+        "id": 26,
+        "name": "Standard Room",
+        "view": "сад/бассейн",
+        "bedConfiguration": "1 двуспальная или 2 односпальные кровати",
+        "maxOccupancy": 3,
+        "areaSquareMeters": 24
+      }
+    ],
+    "mealPlans": [
+      {
+        "id": 2,
+        "code": "AI",
+        "description": "All Inclusive — завтрак, обед, ужин, закуски в течение дня, местные алкогольные и безалкогольные напитки по концепции отеля."
+      }
+    ],
+    "services": {
+      "inRoom": [
+        "телевизор",
+        "сейф",
+        "мини-бар",
+        "чайный набор"
+      ],
+      "forChildren": [
+        "мини-клуб",
+        "детская площадка",
+        "мини-диско"
+      ],
+      "onSite": [
+        "главный ресторан",
+        "рестораны a-la carte",
+        "бары на территории",
+        "магазины"
+      ],
+      "entertainment": [
+        "анимация",
+        "аквапарк",
+        "теннисные корты",
+        "фитнес зал"
+      ],
+      "beach": [
+        "собственный песчаный пляж",
+        "трансфер до пляжа"
+      ],
+      "notes": [
+        "администрация оставляет за собой право изменять концепцию питания",
+        "возможны изменения в расписании анимации"
+      ]
+    }
+  }
+]

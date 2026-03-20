@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "code": "BB",
+    "description": "BB — только завтрак. Включает шведский стол на завтрак, разнообразные закуски и безалкогольные напитки. Курение в ресторане запрещено.",
+    "smokingAllowedInRestaurant": false
+  },
+  {
+    "id": 2,
+    "code": "AI",
+    "description": "All Inclusive — завтрак, обед, ужин, закуски в течение дня, местные алкогольные и безалкогольные напитки по концепции отеля.",
+    "smokingAllowedInRestaurant": false
+  },
+  {
+    "id": 3,
+    "code": "UAI",
+    "description": "Ultra All Inclusive — расширенное питание и напитки: круглосуточные бары по концепции, импортные напитки, поздний ужин.",
+    "smokingAllowedInRestaurant": false
+  },
+  {
+    "id": 4,
+    "code": "FB",
+    "description": "Full Board — завтрак, обед и ужин. Напитки включены только во время приёма пищи. Алкоголь зависит от политики отеля.",
+    "smokingAllowedInRestaurant": false
+  },
+  {
+    "id": 5,
+    "code": "HB",
+    "description": "Half Board — завтрак и ужин. Напитки на ужине ограничены правилами отеля. Закуски обычно не входят.",
+    "smokingAllowedInRestaurant": false
+  },
+  {
+    "id": 6,
+    "code": "RO",
+    "description": "Room Only — питание не предоставляется. Все рестораны и бары доступны гостю только за дополнительную плату.",
+    "smokingAllowedInRestaurant": false
+  }
+]

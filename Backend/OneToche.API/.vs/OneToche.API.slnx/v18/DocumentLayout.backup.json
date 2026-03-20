@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\user\\reacthomework\\backend\\onetoche.api\\controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\user\\reacthomework\\backend\\onetoche.api\\controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\user\\reacthomework\\backend\\onetoche.api\\dto\\tourdescriptiondtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:dto\\tourdescriptiondtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\user\\reacthomework\\backend\\onetoche.api\\dto\\tourfilterquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:dto\\tourfilterquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\user\\reacthomework\\backend\\onetoche.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\user\\reacthomework\\backend\\onetoche.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\user\\reacthomework\\backend\\onetoche.api\\data\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:data\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\user\\reacthomework\\backend\\onetoche.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\user\\reacthomework\\backend\\onetoche.api\\dto\\tourinfrastructuredtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:dto\\tourinfrastructuredtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\user\\reacthomework\\backend\\onetoche.api\\dto\\tourroomsdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:dto\\tourroomsdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\user\\reacthomework\\backend\\onetoche.api\\models\\hotelplaceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:models\\hotelplaceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\user\\reacthomework\\backend\\onetoche.api\\models\\hotelcategorymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:models\\hotelcategorymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TourFilterQueryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourFilterQueryDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\TourFilterQueryDTO.cs",
+              "ToolTip": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourFilterQueryDTO.cs",
+              "RelativeToolTip": "DTO\\TourFilterQueryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:29:18.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-20T12:24:05.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:23:11.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FilterController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\Controllers\\FilterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FilterController.cs",
+              "ToolTip": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\Controllers\\FilterController.cs",
+              "RelativeToolTip": "Controllers\\FilterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:19:03.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TourController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\Controllers\\TourController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TourController.cs",
+              "ToolTip": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\Controllers\\TourController.cs",
+              "RelativeToolTip": "Controllers\\TourController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:18:47.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HotelCategoryMap.cs",
+              "DocumentMoniker": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\Models\\HotelCategoryMap.cs",
+              "RelativeDocumentMoniker": "Models\\HotelCategoryMap.cs",
+              "ToolTip": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\Models\\HotelCategoryMap.cs",
+              "RelativeToolTip": "Models\\HotelCategoryMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:03:31.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TourDescriptionDTOResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourDescriptionDTOResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\TourDescriptionDTOResponse.cs",
+              "ToolTip": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourDescriptionDTOResponse.cs",
+              "RelativeToolTip": "DTO\\TourDescriptionDTOResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T11:59:41.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataSeed.cs",
+              "DocumentMoniker": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\data\\DataSeed.cs",
+              "RelativeDocumentMoniker": "data\\DataSeed.cs",
+              "ToolTip": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\data\\DataSeed.cs",
+              "RelativeToolTip": "data\\DataSeed.cs",
+              "ViewState": "AgIAAM8BAAAAAAAAAAAYwPYBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:51:45.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:57:43.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TourInfrastructureDTOResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourInfrastructureDTOResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\TourInfrastructureDTOResponse.cs",
+              "ToolTip": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourInfrastructureDTOResponse.cs",
+              "RelativeToolTip": "DTO\\TourInfrastructureDTOResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:01:01.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HotelPlaceInfo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\Models\\HotelPlaceInfo.cs",
+              "RelativeDocumentMoniker": "Models\\HotelPlaceInfo.cs",
+              "ToolTip": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\Models\\HotelPlaceInfo.cs",
+              "RelativeToolTip": "Models\\HotelPlaceInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T11:57:02.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TourRoomsDTOResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourRoomsDTOResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\TourRoomsDTOResponse.cs",
+              "ToolTip": "C:\\Users\\user\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourRoomsDTOResponse.cs",
+              "RelativeToolTip": "DTO\\TourRoomsDTOResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:00:33.216Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
