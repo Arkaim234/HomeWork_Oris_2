@@ -1,0 +1,661 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\services\\tourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:services\\tourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\services\\itourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:services\\itourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\services\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:services\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\dto\\tourupsertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:dto\\tourupsertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\entities\\hotelentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:entities\\hotelentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\entities\\hotelmealplanentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:entities\\hotelmealplanentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\dto\\tourroomsdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:dto\\tourroomsdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\dto\\tourinfrastructuredtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:dto\\tourinfrastructuredtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\dto\\tourfilterquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:dto\\tourfilterquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\dto\\tourdescriptiondtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:dto\\tourdescriptiondtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\onetoche.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:onetoche.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\entities\\hotelphotoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:entities\\hotelphotoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\entities\\roomtypeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:entities\\roomtypeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\entities\\mealplanentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:entities\\mealplanentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\entities\\hotelserviceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:entities\\hotelserviceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\entities\\hotelplaceinfoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:entities\\hotelplaceinfoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\entities\\hoteldescriptionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:entities\\hoteldescriptionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\entities\\hotelcategorymapentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:entities\\hotelcategorymapentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\entities\\hotelcategoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:entities\\hotelcategoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\entities\\cityentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:entities\\cityentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\entities\\countryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:entities\\countryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\models\\mealplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:models\\mealplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\models\\hotelcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:models\\hotelcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\models\\hotelcategorymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:models\\hotelcategorymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\models\\hoteldescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:models\\hoteldescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\models\\hotelplaceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:models\\hotelplaceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\models\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:models\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\models\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:models\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|c:\\users\\lopatinsvo\\reacthomework\\backend\\onetoche.api\\data\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4A1AAE-FA61-E793-C148-98B1F2A9321A}|OneToche.API.csproj|solutionrelative:data\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ITourService.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Services\\ITourService.cs",
+              "RelativeDocumentMoniker": "Services\\ITourService.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Services\\ITourService.cs",
+              "RelativeToolTip": "Services\\ITourService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T22:02:29.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TourService.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Services\\TourService.cs",
+              "RelativeDocumentMoniker": "Services\\TourService.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Services\\TourService.cs",
+              "RelativeToolTip": "Services\\TourService.cs",
+              "ViewState": "AgIAANUBAAAAAAAAAADwvwcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T22:00:26.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceResult.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Services\\ServiceResult.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceResult.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Services\\ServiceResult.cs",
+              "RelativeToolTip": "Services\\ServiceResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T21:59:14.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TourController.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Controllers\\TourController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TourController.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Controllers\\TourController.cs",
+              "RelativeToolTip": "Controllers\\TourController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:18:47.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:57:43.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TourUpsertDTO.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourUpsertDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\TourUpsertDTO.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourUpsertDTO.cs",
+              "RelativeToolTip": "DTO\\TourUpsertDTO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T21:23:30.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HotelEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\HotelEntity.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelEntity.cs",
+              "RelativeToolTip": "Entities\\HotelEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:01:56.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HotelMealPlanEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelMealPlanEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\HotelMealPlanEntity.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelMealPlanEntity.cs",
+              "RelativeToolTip": "Entities\\HotelMealPlanEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:04:08.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TourInfrastructureDTOResponse.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourInfrastructureDTOResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\TourInfrastructureDTOResponse.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourInfrastructureDTOResponse.cs",
+              "RelativeToolTip": "DTO\\TourInfrastructureDTOResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:01:01.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TourFilterQueryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourFilterQueryDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\TourFilterQueryDTO.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourFilterQueryDTO.cs",
+              "RelativeToolTip": "DTO\\TourFilterQueryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:29:18.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TourDescriptionDTOResponse.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourDescriptionDTOResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\TourDescriptionDTOResponse.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourDescriptionDTOResponse.cs",
+              "RelativeToolTip": "DTO\\TourDescriptionDTOResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T11:59:41.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HotelDescriptionEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelDescriptionEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\HotelDescriptionEntity.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelDescriptionEntity.cs",
+              "RelativeToolTip": "Entities\\HotelDescriptionEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:02:32.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HotelPlaceInfoEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelPlaceInfoEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\HotelPlaceInfoEntity.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelPlaceInfoEntity.cs",
+              "RelativeToolTip": "Entities\\HotelPlaceInfoEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:03:02.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HotelServiceEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelServiceEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\HotelServiceEntity.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelServiceEntity.cs",
+              "RelativeToolTip": "Entities\\HotelServiceEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:03:24.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FilterController.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Controllers\\FilterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FilterController.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Controllers\\FilterController.cs",
+              "RelativeToolTip": "Controllers\\FilterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:19:03.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TourRoomsDTOResponse.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourRoomsDTOResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\TourRoomsDTOResponse.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\DTO\\TourRoomsDTOResponse.cs",
+              "RelativeToolTip": "DTO\\TourRoomsDTOResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:00:33.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\UserEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\UserEntity.cs",
+              "RelativeToolTip": "Entities\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:05:25.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HotelPhotoEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelPhotoEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\HotelPhotoEntity.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelPhotoEntity.cs",
+              "RelativeToolTip": "Entities\\HotelPhotoEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:05:57.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MealPlanEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\MealPlanEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\MealPlanEntity.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\MealPlanEntity.cs",
+              "RelativeToolTip": "Entities\\MealPlanEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:03:45.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RoomTypeEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\RoomTypeEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\RoomTypeEntity.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\RoomTypeEntity.cs",
+              "RelativeToolTip": "Entities\\RoomTypeEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:04:36.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\data\\AppDbContext.cs",
+              "RelativeToolTip": "data\\AppDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA7wDUAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:14:35.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OneToche.API.csproj",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\OneToche.API.csproj",
+              "RelativeDocumentMoniker": "OneToche.API.csproj",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\OneToche.API.csproj",
+              "RelativeToolTip": "OneToche.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-26T16:32:30.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\data\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "data\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\data\\DbSeeder.cs",
+              "RelativeToolTip": "data\\DbSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:38:01.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HotelCategoryMapEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelCategoryMapEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\HotelCategoryMapEntity.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelCategoryMapEntity.cs",
+              "RelativeToolTip": "Entities\\HotelCategoryMapEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:01:27.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-20T12:24:05.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HotelCategoryEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelCategoryEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\HotelCategoryEntity.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\HotelCategoryEntity.cs",
+              "RelativeToolTip": "Entities\\HotelCategoryEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:00:23.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CityEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\CityEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\CityEntity.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\CityEntity.cs",
+              "RelativeToolTip": "Entities\\CityEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T15:59:57.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CountryEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\CountryEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\CountryEntity.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Entities\\CountryEntity.cs",
+              "RelativeToolTip": "Entities\\CountryEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T15:59:20.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "Models\\Hotel.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\Hotel.cs",
+              "RelativeToolTip": "Models\\Hotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T15:43:22.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "Models\\Country.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\Country.cs",
+              "RelativeToolTip": "Models\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T15:43:21.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "HotelCategory.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\HotelCategory.cs",
+              "RelativeDocumentMoniker": "Models\\HotelCategory.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\HotelCategory.cs",
+              "RelativeToolTip": "Models\\HotelCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T15:43:19.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HotelService.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\HotelService.cs",
+              "RelativeDocumentMoniker": "Models\\HotelService.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\HotelService.cs",
+              "RelativeToolTip": "Models\\HotelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T15:43:12.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RoomType.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\RoomType.cs",
+              "RelativeDocumentMoniker": "Models\\RoomType.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\RoomType.cs",
+              "RelativeToolTip": "Models\\RoomType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T15:43:05.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HotelDescription.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\HotelDescription.cs",
+              "RelativeDocumentMoniker": "Models\\HotelDescription.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\HotelDescription.cs",
+              "RelativeToolTip": "Models\\HotelDescription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T15:42:48.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MealPlan.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\MealPlan.cs",
+              "RelativeDocumentMoniker": "Models\\MealPlan.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\MealPlan.cs",
+              "RelativeToolTip": "Models\\MealPlan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T15:42:16.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T15:42:13.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HotelCategoryMap.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\HotelCategoryMap.cs",
+              "RelativeDocumentMoniker": "Models\\HotelCategoryMap.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\HotelCategoryMap.cs",
+              "RelativeToolTip": "Models\\HotelCategoryMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:03:31.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DataSeed.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\data\\DataSeed.cs",
+              "RelativeDocumentMoniker": "data\\DataSeed.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\data\\DataSeed.cs",
+              "RelativeToolTip": "data\\DataSeed.cs",
+              "ViewState": "AgIAAHEBAAAAAAAAAAAwwOUBAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:51:45.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "HotelPlaceInfo.cs",
+              "DocumentMoniker": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\HotelPlaceInfo.cs",
+              "RelativeDocumentMoniker": "Models\\HotelPlaceInfo.cs",
+              "ToolTip": "C:\\Users\\LopatinSVO\\ReactHomeWork\\Backend\\OneToche.API\\Models\\HotelPlaceInfo.cs",
+              "RelativeToolTip": "Models\\HotelPlaceInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T11:57:02.06Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
